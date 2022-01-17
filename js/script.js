@@ -17,8 +17,8 @@ contact.onclick = function () {
 function newBox(title, content, position) {
     new WinBox({
         title: title,
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: position,
         left: position, /* For a little bit different position when created */
         right: 10,

@@ -100,3 +100,16 @@ nav ul li {
     background: #111;
     padding: 20px;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    h1 {
+     font-size: 35px;
+     letter-spacing: 0;
+    }
+
+    nav {
+        width: 50%;
+    }
+}
